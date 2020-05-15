@@ -26,7 +26,7 @@ This layer adds support for the Robot framework in spacemacs.
 * Install
 To use this configuration layer, first clone it with:
 
-~git clone git@github.com:dalanicolai/robot-framework-layer.git ~/.emacs.d/private~
+~git clone git@github.com:dalanicolai/robot-framework-layer.git ~/.emacs.d/private/robot-framework~
 
 and add it to your =~/.spacemacs= by adding =robot-framework= to the existing
 =dotspacemacs-configuration-layers= list in this file.
