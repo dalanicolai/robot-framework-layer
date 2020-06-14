@@ -15,7 +15,7 @@
 (defconst robot-framework-packages
   '((robot-mode :location (recipe
                            :fetcher github
-                           :repo "dougm/robot-mode"))))
+                           :repo "davidshepherd7/robot-mode"))))
 
 (defun robot-framework/init-robot-mode ()
   (use-package robot-mode

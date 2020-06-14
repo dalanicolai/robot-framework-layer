@@ -16,7 +16,10 @@
 - [[#key-bindings][Key bindings]]
 
 * Description
-This layer adds support for the Robot framework in spacemacs.
+This layer adds support for the Robot framework in spacemacs. The layer adds
+support for syntax highlighting by installing the following robot-mode package:
+https://github.com/davidshepherd7/robot-mode. Also, if not yet installed, this layer
+installs the lsp layer to include rf-language-server support.
 
 ** Features:
   - Autocomplete
@@ -30,6 +33,7 @@ To use this configuration layer, first clone it with:
 
 and add it to your =~/.spacemacs= by adding =robot-framework= to the existing
 =dotspacemacs-configuration-layers= list in this file.
+
 
 * Key bindings
 
