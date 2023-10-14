@@ -21,7 +21,9 @@
   (use-package robot-mode
     :defer t
     :init  (spacemacs/add-to-hook 'robot-mode-hook
-                                  '(spacemacs//robot-framework-setup-lsp))))
+                                  '(spacemacs//robot-framework-setup-lsp
+                                    spacemacs//pyvenv-mode-set-local-virtualenv
+                                    pyvenv-tracking-mode))))
 
 
 ;;; packages.el ends here
